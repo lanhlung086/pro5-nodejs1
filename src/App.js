@@ -1,12 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter,Switch,Route,Link} from "react-router-dom";
+import React from 'react';
 import HeaderBakeryMenu from "./HeaderBakeryMenu";
 import MainBakeryMenu from "./MainBakeryMenu";
 import HeaderCakes from "./HeaderCakes";
 import MainCakes from "./MainCakes";
 import Nav from "./Nav";
-import Home from "./Home";
+import HeaderHome from "./HeaderHome";
+import MainHome from "./MainHome";
+import HeaderBakery from "./HeaderBakery";
+import MainBakery from "./MainBakery";
+import HeaderContact from "./HeaderContact";
+import MainContact from "./MainContact";
+import Footer from "./Footer";
+
 
 function App() {
   return (
@@ -14,24 +21,40 @@ function App() {
         <div className="App">
           <Nav/>
           <Switch>
-            <Route exact path="/Home">
-              <Home/>
+            <Route exact path="/">
+              <HeaderHome/>
+              <MainHome/>
             </Route>
-            <Route exact path="/Catering"></Route>
+            <Route exact path="/Catering">
+
+            </Route>
             <Route exact path="/Bakery">
+              <HeaderBakery/>
+              <MainBakery/>
+            </Route>
+            <Route exact path="/BakeryMenu">
               <HeaderBakeryMenu/>
               <MainBakeryMenu/>
             </Route>
-            <Route exact path="/Deli"></Route>
+            <Route exact path="/Deli">
+
+            </Route>
             <Route exact path="/Cakes">
               <HeaderCakes/>
               <MainCakes/>
             </Route>
-            <Route exact path="/About"></Route>
-            <Route exact path="/Contact"></Route>
-            <Route exact path="/OrderOnline"></Route>
+            <Route exact path="/About">
+
+            </Route>
+            <Route exact path="/Contact">
+              <HeaderContact/>
+              <MainContact/>
+            </Route>
+            <Route exact path="/OrderOnline">
+
+            </Route>
           </Switch>
-          {/*<Footer/>*/}
+          <Footer/>
         </div>
       </BrowserRouter>
   );

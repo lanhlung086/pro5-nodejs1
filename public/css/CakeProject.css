@@ -7,10 +7,6 @@ body{
     font-size:15px;
     line-height:23px;
     font-family: 'Cabin', sans-serif;
-    background-image:url("../imgs/hamburger.jpg");
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    background-size:cover;
 }
 .block{
     width:100%;

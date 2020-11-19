@@ -1,7 +1,7 @@
 export default function MainBakeryMenu() {
     return(
         <section className="section main">
-            <div className="container main">
+            <div className="container">
                 <div className="main-column col-md-12">
                     <div className="top-menu row">
                         <div className="col-md-4 text-center">

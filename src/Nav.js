@@ -4,7 +4,7 @@ export default function Nav(){
         <nav className="section nav-menu">
             <div className="container nav-menu__container">
                 <div className="flex-items">
-                    <Link to="/Home"  title="Alessi Bakery"><img src="imgs/alessi-logo.png" alt="Home Page" /></Link>
+                    <Link to="/"  title="Alessi Bakery"><img src="imgs/alessi-logo.png" alt="Home Page" /></Link>
                 </div>
                 <div className="flex-items">
                     <Link to="/Catering">CATERING</Link>
