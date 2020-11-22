@@ -1,3 +1,4 @@
+import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter,Switch,Route,Link} from "react-router-dom";
 import React from 'react';
@@ -13,6 +14,7 @@ import MainBakery from "./MainBakery";
 import HeaderContact from "./HeaderContact";
 import MainContact from "./MainContact";
 import Footer from "./Footer";
+import Deli from "./Deli";
 
 
 function App() {
@@ -37,7 +39,7 @@ function App() {
               <MainBakeryMenu/>
             </Route>
             <Route exact path="/Deli">
-
+              <Deli/>
             </Route>
             <Route exact path="/Cakes">
               <HeaderCakes/>

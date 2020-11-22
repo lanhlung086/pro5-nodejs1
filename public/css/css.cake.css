@@ -7,44 +7,40 @@ body{
     font-size:15px;
     line-height:23px;
     font-family: 'Cabin', sans-serif;
+    background-image:url("../imgs/hamburger.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
 }
 div{
     display: block;
 }
-img{
-    width: auto;
-}
-.trailer-menu-item{
-    position: relative;
-    padding-left:30px;
+
+.menu-main02{
+    width: 100%;
     height: auto;
-    background-color:#ffffff;
 }
-.trailer-menu-item::after{
-    content:"";
-    display:table;
-    clear:both;
+.menu-main02 img{
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.trailer-menu-item::before{
-    content:"";
-    display:block;
-    height:54px;
-    position:absolute;
-    top:-54px;
-    left:0;
-    right:0;
-    z-index:10;
-    background-image:url("../imgs/border-top.png");
-    background-repeat:repeat-x;
+.title-main02{
+    margin-bottom: 10px;
 }
-.trailer-menu-item-part1 h2{
+.title-main02 h2{
     font-family: 'Montez', cursive;
     font-size: 50px;
 }
-.trailer-menu-item__buttons{
+.title-main02-button{
+    position: relative;
+}
+.button-item{
     position: absolute;
     left:70%;
-    top:10px;
+    top:34px;
 }
 .button-item{
     background-color: #3e8f3e;
@@ -60,25 +56,46 @@ img{
     letter-spacing: 1.5px;
     text-transform: uppercase;
     text-decoration: none;
-    float: right;
 }
-.trailer-menu-item__buttons :hover .button-item{
+.button-item:hover{
     color: #3e8f3e;
     background-color: #f1f0f0;
     text-decoration: none;
 }
-.slick-track{
-    position:relative;
-    opacity: 1;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    float: left;
-    background-color:#ffffff;
-    margin-bottom: 30px;
+/*DONE P1 MAIN02*/
+.newsp02{
+    padding: 0;
 }
 
-.slick-track::after{
+.sp-name{
+    margin-top: 30px;
+    color: #514f4f;
+    display: block;
+    font-size: 26px;
+    text-decoration: none;
+
+}
+.newsp02 img{
+    transition:0.5s;
+}
+.newsp02:hover img{
+    transform:scale(1.1);
+    z-index: 1;!important;
+}
+.newsp02:hover .sp-name{
+    color: #3e8f3e;
+}
+.menu-main02::after{
+    content: ' ';
+    display: block;
+    height: 60px;
+    background: url("https://img.pngio.com/collection-of-free-transparent-text-divider-download-on-ui-ex-text-separator-png-1250_196.png") center no-repeat;
+    background-size: contain;
+}
+.main02{
+    position: relative;
+}
+.main02::before{
     content:"";
     display:block;
     height:54px;
@@ -90,56 +107,17 @@ img{
     background-image:url("../imgs/border-bottom.png");
     background-repeat:repeat-x;
 }
-.cake-sp{
-    margin: auto;
-    border: #e9e7e7 10px solid;
-    padding: 20px 0;
-    background-color: #f1f0f0;
-    margin-bottom: 30px;
-
-}
-.featured-menu-item{
-    pointer-events: none;
-}
-.featured-menu-item__title{
-    color: #3e8f3e;
-    display: block;
-    text-align: center;
-    font-size: 26px;
-    text-decoration: none;
-}
-.featured-menu-item__image {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-align: center;
-    flex-grow: 1;
-    margin: 10px 0;
-    max-width: 100%;
-    min-height: 1px;
-}
-.featured-menu-item__title:after {
-    content: ' ';
-    display: block;
-    height: 60px;
-    background: url("https://img.pngio.com/collection-of-free-transparent-text-divider-download-on-ui-ex-text-separator-png-1250_196.png") center no-repeat;
-    background-size: contain;
-}
-.featured-menu-item__title:before {
-    content: ' ';
-    display: block;
-    height: 27px;
-}
-.slick-track :hover{
-     border: #aaaaaa 10px solid;
-    text-decoration: none;
-}
-.slick-track :hover .featured-menu-item__title{
-    color: #aaaaaa ;
-    transition: 0.9ms;
+.main02::after{
+    content:"";
+    display:block;
+    height:54px;
+    position:absolute;
+    bottom:-54px;
+    left:0;
+    right:0;
+    z-index:1;
+    background-image:url("../imgs/border-bottom.png");
+    background-repeat:repeat-x;
 }
 /*h2{*/
 /*    margin: 0;*/
@@ -160,16 +138,16 @@ img{
     display:block;
     width:70%;
     transform:translate(-50%,-50%);
-    font-size: 79px;
-    color: #fff;
-    text-align: center;
-    text-shadow: 2px 2px 2px #000;
+
 }
 .ad-content-detail h3 a{
     display:block;
     font-family: 'Montez', cursive;
     color: #f1f0f0;
     text-decoration: none;
+    font-size: 79px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
 }
 .ad-content-detail h3 ::before {
     content: "";

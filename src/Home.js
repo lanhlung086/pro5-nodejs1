@@ -80,52 +80,32 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="main02">
-                    <div className="trailer-menu-item">
-                        <div className="trailer-menu-item-part1 col-md-6">
-                            <h2>Featured Menu Items</h2>
-                            <p className="subheading">Available at Boudin SF locations. Menus may vary by location.</p>
-                        </div>
-                        {/*/.section-heading__headings*/}
-                        <div className="col-md-6">
-                            <div className="trailer-menu-item__buttons ">
-                                <p>
-                                    <br />
+                    <div className="container">
+                        <div className="block menu-main02">
+                            <div className="row">
+                                <div className="title-main02 col-md-6">
+                                    <h2>Featured Menu Items</h2>
+                                    <p className="subheading">Available at Boudin SF locations. Menus may vary by location.</p>
+                                </div>
+                                <div className="title-main02-button col-md-6">
                                     <a className="button-item" href="#">Order Now</a>
-                                </p>
+                                </div>
                             </div>
-                            {/*/.section-heading__buttons*/}
-                        </div>
-                    </div>
-                    <div className="slick-track">
-                        <div className="cake-sp">
-                            <a className="featured-menu-item " href="#" tabIndex={0}>
-                                <div className="featured-menu-item__image">
-                                    <img width={342} height={314} src="https://3d1zvgya81uuh1sso1s4f1e1-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/california-baquette-burger-342x314.jpeg" alt="Baguette burger with Havarti, lettuce, tomatoes, smashed avocado on a garlic-buttered toasted multigrain baguette" />
+                            {/*            DONE P1 MAIN02*/}
+                            <div className="row">
+                                <div className="col-md-4 newsp02">
+                                    <img src="../imgs/menu-1.jpg" />
+                                    <h2 className="sp-name text-center">Old Classic Sandwich</h2>
                                 </div>
-                                <div className="featured-menu-item__title">
-                                    California Baguette Burger
+                                <div className="col-md-4 newsp02">
+                                    <img src="../imgs/menu2.jpg" />
+                                    <h2 className="sp-name text-center">Mexican Burritos</h2>
                                 </div>
-                            </a>
-                        </div>
-                        <div className="cake-sp">
-                            <a className="featured-menu-item " href="#" tabIndex={0}>
-                                <div className="featured-menu-item__image">
-                                    <img width={342} height={314} src="https://3d1zvgya81uuh1sso1s4f1e1-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/menu_sandwich_turkey_sandwich-342x314.jpeg" alt="Turkey Avocado Sandwich with Havarti, tomatoes, lettuce and mayo on multigrain bread" />
+                                <div className="col-md-4 newsp02">
+                                    <img src="../imgs/menu3.jpg" />
+                                    <h2 className="sp-name text-center">Mexican Tacos</h2>
                                 </div>
-                                <div className="featured-menu-item__title">
-                                    Turkey Avocado
-                                </div>
-                            </a>
-                        </div>
-                        <div className="cake-sp">
-                            <a className="featured-menu-item " href="#" tabIndex={0}>
-                                <div className="featured-menu-item__image">
-                                    <img width={342} height={314} src="https://3d1zvgya81uuh1sso1s4f1e1-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/clam-chowder-342x314.jpeg" className="attachment-featured_menu_item_thumb size-featured_menu_item_thumb" alt="Clam Chowder in a Sourdough Bread Bowl" />
-                                </div>
-                                <div className="featured-menu-item__title">
-                                    Clam Chowder
-                                </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                     {/* .widget-group__inner */}
@@ -144,10 +124,10 @@ export default function Home() {
                             <img src="imgs/stylistic-tree.jpg" alt="Stylistic Tree" />
                             <p>We are proud of our</p>
                             <h3>Achievement</h3>
-                            <img src="imgs/knot.png" alt="The Knot" />
-                            <img src="imgs/weddingwire2019.png" alt="WeddingWire" className="weddingwire-img" />
-                            <img src="imgs/aislesociety.png" alt="Aisle" />
-                            <img src="imgs/stylistic-leaves.jpg" alt="Stylist Leaves" />
+                            <img src="../imgs/knot.png" alt="The Knot" />
+                            <img src="../imgs/weddingwire2019.png" alt="WeddingWire" className="weddingwire-img" />
+                            <img src="../imgs/aislesociety.png" alt="Aisle" />
+                            <img src="../imgs/stylistic-leaves.jpg" alt="Stylist Leaves" />
                         </div>
                         <div className="col-md-4" />
                     </div>
@@ -160,7 +140,7 @@ export default function Home() {
                                     <a href="#">LEARN MORE</a>
                                 </div>
                                 <div className="col-md-4">
-                                    <img src="imgs/bakery_history.jpg" alt="Power Rangers" title="Power Rangers" />
+                                    <img src="../imgs/bakery_history.jpg" alt="Power Rangers" title="Power Rangers" />
                                 </div>
                             </div>
                         </div>

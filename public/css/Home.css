@@ -8,6 +8,7 @@
 .menu-block{
     position: relative;
     padding-top:50px;
+    background-color: white;
 }
 .menu-block::before{
     content:"";
