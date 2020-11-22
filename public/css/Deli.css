@@ -37,7 +37,7 @@ body {
 .content-menu{
     position: relative;
     padding:60px 0;
-    background-color:#ffffff;
+    background-color:#ffffff;!important;
 }
 .content-menu::before{
     content:"";
@@ -104,6 +104,9 @@ body {
     pointer-events:none;
 }
 /*Menu-deli-Start*/
+.menu-deli{
+    background-color:#ffffff;!important;
+}
 .menu-deli-pic{
     background-image: url("../imgs/stock-vector-vintage-horizontal-banner-with-fast-food-different-collection-on-black-background-hand-drawn-1494775769.jpg");
     background-size: cover;
@@ -208,6 +211,10 @@ body {
     right:0;
     background-image:url("../imgs/border-bottom.png");
     z-index: 1;
+}
+.product-name{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #3e8f3e;
 }
 /*WOOD-BG*/
 .main [class*="wood"]{

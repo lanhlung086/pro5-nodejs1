@@ -82,7 +82,7 @@ export default function MainHome(){
                         <div className="row">
                             <div className="title-main02 col-md-6">
                                 <h2>Featured Menu Items</h2>
-                                <p className="subheading">Available at Boudin SF locations. Menus may vary by location.</p>
+                                <p className="subheading">Available at Boudin SF locations. Menu may vary by location.</p>
                             </div>
                             <div className="title-main02-button col-md-6">
                                 <a className="button-item" href="#">Order Now</a>

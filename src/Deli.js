@@ -1,3 +1,57 @@
+var products=[
+    {
+        productName: "Mexico Burritos",
+        price: 12,
+        image:"../imgs/menu2.jpg",
+        star:5
+    },
+    {
+        productName: "Mexican Tacos",
+        price: 12,
+        image:"../imgs/menu3.jpg",
+        star:4
+    },
+    {
+        productName: "Veggie Burger",
+        price: 12,
+        image:"../imgs/menu4.jpg",
+        star:3.5
+    },
+    {
+        productName: "French SandWich",
+        price: 12,
+        image:"../imgs/menu5.jpg",
+        star:3
+    },
+    {
+        productName: "Big Bacon Burger",
+        price: 12,
+        image:"../imgs/menu6.jpg",
+        star:1
+    },
+    {
+        productName: "American Bagel",
+        price: 12,
+        image:"../imgs/menu7.jpg",
+        star:2
+    },
+    {
+        productName: "Old Classic Sandwich",
+        price: 12,
+        image:"../imgs/menu-1.jpg",
+        star:0
+    },
+    {
+        productName: "Ice Cream",
+        price: 12,
+        image:"../imgs/menu8.jpg",
+        star:3.5
+    },
+
+
+
+]
+
 export default function Deli() {
     return(
         <>
@@ -25,6 +79,33 @@ export default function Deli() {
                         <h3 className="menu-deli-pic" />
                         <div className="row">
                             <div className="menu-deli-detail " id="products">
+                                <div className="row">
+                                    {
+                                        // can chay vong lap de in ra sp
+                                        products.map(function (e,i) {
+                                            // tra ve 1 sp
+                                            // e <=> products[i]
+                                            return (
+                                                <div key={i} className="col-md-3">
+                                                    <div className="item1 text-center">
+                                                        <img className="product-image" src={e.image} height="300"
+                                                             width="400"/>
+                                                        <h2 className="product-name">{e.productName}</h2>
+                                                        <div className="star">
+                                                            <div className="star-box">
+                                                                <div className="star-rate" style={{width:e.star/5*100+"%"}}>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p className="price">${e.price}</p>
+                                                        <a href="#" className="add-to-cart text-uppercase">Add To Cart</a>
+                                                    </div>
+                                                </div>
+                                            )
+                                        })
+                                    }
+                                </div>
                             </div>
                         </div>
                     </div>

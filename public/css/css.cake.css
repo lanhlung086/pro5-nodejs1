@@ -24,11 +24,11 @@ div{
     display:block;
     height:54px;
     position:absolute;
-    bottom:-54px;
+    top:-54px;
     left:0;
     right:0;
     z-index:1;
-    background-image:url("../imgs/border-bottom.png");
+    background-image:url("../imgs/border-top.png");
     background-repeat:repeat-x;
 }
 .main02::after{
@@ -118,6 +118,7 @@ div{
     height: 60px;
     background: url("https://img.pngio.com/collection-of-free-transparent-text-divider-download-on-ui-ex-text-separator-png-1250_196.png") center no-repeat;
     background-size: contain;
+    filter: contrast(100%);
 }
 
 .ad-content{
