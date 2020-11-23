@@ -63,7 +63,7 @@ export default function MainHome(){
                         </div>
                     </div>
                 </div>
-                <div className="section specialty-cakes">
+                <div className="specialty-cakes">
                     <div className="container specialty-cakes">
                         <div className="image-specialty col-md-4">
                             <img src="imgs/specialty-cake.png" />
@@ -77,59 +77,39 @@ export default function MainHome(){
                 </div>
             </div>
             <div className="main02">
-                <div className="trailer-menu-item">
-                    <div className="trailer-menu-item-part1 col-md-6">
-                        <h2>Featured Menu Items</h2>
-                        <p className="subheading">Available at Boudin SF locations. Menus may vary by location.</p>
-                    </div>
-                    {/*/.section-heading__headings*/}
-                    <div className="col-md-6">
-                        <div className="trailer-menu-item__buttons ">
-                            <p>
-                                <br />
-                                <Link className="button-item" to="#">Order Now</Link>
-                            </p>
+                <div className="container">
+                    <div className="block menu-main02">
+                        <div className="row">
+                            <div className="title-main02 col-md-6">
+                                <h2>Featured Menu Items</h2>
+                                <p className="subheading">Available at Boudin SF locations. Menu may vary by location.</p>
+                            </div>
+                            <div className="title-main02-button col-md-6">
+                                <a className="button-item" href="#">Order Now</a>
+                            </div>
                         </div>
-                        {/*/.section-heading__buttons*/}
-                    </div>
-                </div>
-                <div className="slick-track">
-                    <div className="cake-sp">
-                        <Link className="featured-menu-item " to="#" tabIndex={0}>
-                            <div className="featured-menu-item__image">
-                                <img width={342} height={314} src="https://3d1zvgya81uuh1sso1s4f1e1-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/california-baquette-burger-342x314.jpeg" alt="Baguette burger with Havarti, lettuce, tomatoes, smashed avocado on a garlic-buttered toasted multigrain baguette" />
+                        {/*            DONE P1 MAIN02*/}
+                        <div className="row">
+                            <div className="col-md-4 newsp02">
+                                <img src="../imgs/menu-1.jpg" />
+                                <h2 className="sp-name text-center">Old Classic Sandwich</h2>
                             </div>
-                            <div className="featured-menu-item__title">
-                                California Baguette Burger
+                            <div className="col-md-4 newsp02">
+                                <img src="../imgs/menu2.jpg" />
+                                <h2 className="sp-name text-center">Mexican Burritos</h2>
                             </div>
-                        </Link>
-                    </div>
-                    <div className="cake-sp">
-                        <Link className="featured-menu-item " to="#" tabIndex={0}>
-                            <div className="featured-menu-item__image">
-                                <img width={342} height={314} src="https://3d1zvgya81uuh1sso1s4f1e1-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/menu_sandwich_turkey_sandwich-342x314.jpeg" alt="Turkey Avocado Sandwich with Havarti, tomatoes, lettuce and mayo on multigrain bread" />
+                            <div className="col-md-4 newsp02">
+                                <img src="../imgs/menu3.jpg" />
+                                <h2 className="sp-name text-center">Mexican Tacos</h2>
                             </div>
-                            <div className="featured-menu-item__title">
-                                Turkey Avocado
-                            </div>
-                        </Link>
-                    </div>
-                    <div className="cake-sp">
-                        <Link className="featured-menu-item " to="#" tabIndex={0}>
-                            <div className="featured-menu-item__image">
-                                <img width={342} height={314} src="https://3d1zvgya81uuh1sso1s4f1e1-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/clam-chowder-342x314.jpeg" className="attachment-featured_menu_item_thumb size-featured_menu_item_thumb" alt="Clam Chowder in a Sourdough Bread Bowl" />
-                            </div>
-                            <div className="featured-menu-item__title">
-                                Clam Chowder
-                            </div>
-                        </Link>
+                        </div>
                     </div>
                 </div>
                 {/* .widget-group__inner */}
                 <div className="ad-content">
                     <div className="ad-content-detail">
                         <h3>
-                            <Link to="#">Fresh Ingredients. Every Day</Link>
+                            <a href="#">Fresh Ingredients. Every Day</a>
                         </h3>
                     </div>
                 </div>

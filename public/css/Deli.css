@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 15px;
+    line-height: 1.25;
+    font-family: 'Cabin', sans-serif;
+}
+.section{
+    float:left;
+    width:100%;
+
+}
+/*Header Start*/
+.header {
+    position: relative;
+    height: 628px;
+    background-image: url("../imgs/sandwich-sub.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.header_title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:100px;
+    font-family: 'Montez', cursive;
+    color:#ffffff;
+    text-shadow:3px 3px 0 rgb(0,0,0);
+    pointer-events:none;
+
+}
+/*Content Start*/
+.content-menu{
+    position: relative;
+    padding:60px 0;
+    background-color:#ffffff;!important;
+}
+.content-menu::before{
+    content:"";
+    position: absolute;
+    display:block;
+    height:54px;
+    top:-52px;
+    left:0;
+    right:0;
+    background-image:url("../imgs/border-top.png");
+    background-repeat:repeat-x;
+}
+.content-menu::after{
+    content:"";
+    position: absolute;
+    display:block;
+    height:54px;
+    bottom:-52px;
+    left:0;
+    right:0;
+    background-image:url("../imgs/border-bottom.png");
+    z-index: 1;
+}
+.about-deli-detail{
+    font-family: 'Montez', cursive;
+    font-size: 46px;
+    margin: 10px;
+}
+.about-deli-detail-pic{
+
+}
+.about-deli p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.about-deli-pic{
+    background-image: url("../imgs/san2.jpg");
+    background-size: cover;
+    height:333px;
+    width: 500px;
+}
+.about-deli-detail-pic{
+    max-width: 100%;
+    height: 150px;
+}
+/*Content End*/
+.deli-menu {
+    position: relative;
+    min-height: 415px;
+    background-image: url("../imgs/wraps.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.deli-menu-title {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:100px;
+    font-family: 'Montez', cursive;
+    color:#ffffff;
+    text-shadow:3px 3px 0 rgb(0,0,0);
+    pointer-events:none;
+}
+/*Menu-deli-Start*/
+.menu-deli{
+    background-color:#ffffff;!important;
+}
+.menu-deli-pic{
+    background-image: url("../imgs/stock-vector-vintage-horizontal-banner-with-fast-food-different-collection-on-black-background-hand-drawn-1494775769.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.menu-deli-detail{
+    text-align: center;
+    margin-bottom: 10px;
+}
+/*.product-pic{*/
+/*    object-fit: initial;*/
+/*    width: 100%;*/
+/*    height: 300px;*/
+/*}*/
+/*.add-to-bag{*/
+/*    background-color: #2aabd2;*/
+/*}*/
+.item1 img{
+    max-width: 100%;
+    height: auto;
+}
+.item1{
+    float: left;
+    width: 100%;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px #aaaaaa;
+    margin: 15px 0;
+}
+.item1 .product-name{
+    font-size: 16px;
+    font-weight: 400;
+}
+.item1 .price{
+    font-size: 16px;
+}
+.item1 .add-to-cart{
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: background-color 300ms; background-color: #3e8f3e;
+    border: 3px solid #3e8f3e;
+    border-radius: 0;
+    color: #FFF;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    font: normal 700 14px/1.43 DIN,sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+}
+.item1 .add-to-cart:hover{
+    color: #3e8f3e;
+    background-color: #f1f0f0;
+    text-decoration: none;
+}
+.item1 .star{
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+}
+.item1 .star-box{
+    float: left;
+    margin-left: calc((100% - 80px)/2);
+    width: 80px;
+    height: 16px;
+    background-image: url("../imgs/star-off.png");
+    background-repeat: repeat-x;
+    background-size: 16px 16px;
+}
+.item1 .star-box .star-rate{
+    float: left;
+    height: 16px;
+    background-image: url("../imgs/star-on.png");
+    background-repeat: repeat-x;
+    background-size: 16px 16px;
+}
+.menu-deli{
+    position: relative;
+}
+.menu-deli-pic::before{
+    content:"";
+    position: absolute;
+    display:block;
+    height:54px;
+    top:-52px;
+    left:0;
+    right:0;
+    background-image:url("../imgs/border-top.png");
+    background-repeat:repeat-x;
+}
+.menu-deli-pic::after{
+    content:"";
+    position: absolute;
+    display:block;
+    height:54px;
+    bottom:-52px;
+    left:0;
+    right:0;
+    background-image:url("../imgs/border-bottom.png");
+    z-index: 1;
+}
+.product-name{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #3e8f3e;
+}
+/*WOOD-BG*/
+.main [class*="wood"]{
+    background-image:url("../imgs/wood.jpg");
+    background-size:cover;
+    background-position:center center;
+}
+.main [class$="bg01"]{
+    height:100px;
+}
+.main [class$="bg02"]{
+    height:200px;
+}
