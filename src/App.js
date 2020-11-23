@@ -13,6 +13,7 @@ import MainBakery from "./MainBakery";
 import HeaderContact from "./HeaderContact";
 import MainContact from "./MainContact";
 import Footer from "./Footer";
+import MainAbout from "./MainAbout";
 
 
 function App() {
@@ -44,7 +45,7 @@ function App() {
               <MainCakes/>
             </Route>
             <Route exact path="/About">
-
+              <MainAbout/>
             </Route>
             <Route exact path="/Contact">
               <HeaderContact/>
