@@ -99,7 +99,7 @@ export default function Deli() {
                                                             </div>
                                                         </div>
                                                         <p className="price">${e.price}</p>
-                                                        <a href="#" className="add-to-cart text-uppercase">Add To Cart</a>
+                                                        <a href="#" className="add-to-cart text-uppercase">Add To Bag</a>
                                                     </div>
                                                 </div>
                                             )
