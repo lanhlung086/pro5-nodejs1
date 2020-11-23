@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-family: 'Cabin', sans-serif ;
+    line-height: 20px;
+}
+.header {
+    position: relative;
+    height: 628px;
+    background-image: url("../imgs/Alessi-Old-Pic4-black-cover.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.header_title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:100px;
+    font-family: 'Montez', cursive;
+    color:#ffffff;
+    text-shadow:3px 3px 0 rgb(0,0,0);
+    pointer-events:none;
+
+}
+/*Xong Header-About*/
+
+.our-story{
+    position: relative;
+    width: auto;
+    height: 560px;
+
+}
+.our-story::before{
+    content:"";
+    position: absolute;
+    display:block;
+    height:54px;
+    top:-52px;
+    left:0;
+    right:0;
+    background-image:url("../imgs/border-top.png");
+    background-repeat:repeat-x;
+}
+.our-story::after{
+    content:"";
+    position: absolute;
+    display:block;
+    height:54px;
+    bottom:-52px;
+    left:0;
+    right:0;
+    background-image:url("../imgs/border-bottom.png");
+    z-index: 1;
+}
+.about-pic{
+    position: relative;
+    overflow: initial;
+
+    /*background-color: #FFFFFF;*/
+    /*background-image: url("../imgs pr5/vector-grunge-air-mail-background.jpg");*/
+    /*background-size: cover;*/
+    /*float: right;*/
+}
+.about-pic h2{
+    color: black;
+    text-align: center;
+    font-family: 'Montez', cursive;
+}
+.about-pic-detail{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    left: 100px;
+
+
+}
+.about-story{
+    margin-top: 30px;
+    background-color: #ffffff;
+    height: 560px;
+
+}
+/*sang among us*/
+.among-us{
+    position: relative;
+    height: 628px;
+    background-image: url("../imgs/member.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.among-us h1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:100px;
+    font-family: 'Montez', cursive;
+    color:#ffffff;
+    text-shadow:3px 3px 0 rgb(0,0,0);
+    pointer-events:none;
+
+}
+.pic-boss{
+    max-width: 100%;
+    height: auto;
+}
+.among-us-title::after{
+    content: ' ';
+    display: block;
+    height: 60px;
+    background: url("https://img.pngio.com/collection-of-free-transparent-text-divider-download-on-ui-ex-text-separator-png-1250_196.png") center no-repeat;
+    background-size: contain;
+}
+.boss-detail{
+    padding: 10px;
+    background-color: #b3aeae;
+    border-radius: 10px;
+}
+.among-us-detail{
+    position: relative;
+    padding: 0 0 20px ;
+}
+.among-us-detail::before{
+    content:"";
+    position: absolute;
+    display:block;
+    height:54px;
+    top:-52px;
+    left:0;
+    right:0;
+    background-image:url("../imgs/border-top.png");
+    background-repeat:repeat-x;
+}
+.among-us-detail::after{
+    content:"";
+    position: absolute;
+    display:block;
+    height:54px;
+    bottom:-52px;
+    left:0;
+    right:0;
+    background-image:url("../imgs/border-bottom.png");
+    z-index: 1;
+}
+/*WOOD-BG*/
+.main [class*="wood"]{
+    background-image:url("../imgs/wood.jpg");
+    background-size:cover;
+    background-position:center center;
+}
+.main [class$="bg01"]{
+    height:100px;
+}
+.main [class$="bg02"]{
+    height:200px;
+}

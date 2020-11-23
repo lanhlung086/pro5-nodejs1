@@ -15,7 +15,7 @@ import HeaderContact from "./HeaderContact";
 import MainContact from "./MainContact";
 import Footer from "./Footer";
 import Deli from "./Deli";
-
+import About from "./About";
 
 function App() {
   return (
@@ -46,7 +46,7 @@ function App() {
               <MainCakes/>
             </Route>
             <Route exact path="/About">
-
+              <About/>
             </Route>
             <Route exact path="/Contact">
               <HeaderContact/>

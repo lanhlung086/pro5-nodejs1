@@ -81,10 +81,7 @@ export default function Deli() {
                             <div className="menu-deli-detail " id="products">
                                 <div className="row">
                                     {
-                                        // can chay vong lap de in ra sp
                                         products.map(function (e,i) {
-                                            // tra ve 1 sp
-                                            // e <=> products[i]
                                             return (
                                                 <div key={i} className="col-md-3">
                                                     <div className="item1 text-center">
