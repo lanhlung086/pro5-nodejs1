@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 export default function MainCakes() {
     return(
         <>
@@ -27,8 +29,8 @@ export default function MainCakes() {
                             <p className="mini-content">Let us provide you with a wedding cake you and your guests are sure to remember. We are committed to providing our customers with amazing cakes, exceptional value and a customer service experience that is second to none. It all starts with the wedding consultation, where you will meet with us to discuss the details of your big day. During the consultation, you will taste the flavors you are most interested in.</p>
                             <p className="mini-content">The wedding consultations are held at our Tampa bakery. If you have questions, our experts are here to help. You can <a href="#" className="contact-us"><u>contact us</u></a> and we will respond within 24 hours. You can also view our gallery for inspiration. We look forward to hearing from you!</p>
                             <p className="mini-content">
-                                <a href="#" className="button-cakes text-uppercase">contact us</a>
-                                <a href="#" className="button-cakes text-uppercase">view gallery</a>
+                                <Link to="/Contact" className="button-cakes text-uppercase">contact us</Link>
+                                <Link to="/CakesGallery" className="button-cakes text-uppercase">view gallery</Link>
                             </p>
                         </div>
                     </div>

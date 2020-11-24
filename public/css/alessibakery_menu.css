@@ -11,7 +11,7 @@ body{
 .image-top{
     position: relative;
 }
-img{
+.top-menu img{
     max-width: 100%;
     height: auto;
 }

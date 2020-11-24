@@ -50,7 +50,7 @@ export default function MainBakery(){
                                 <div className="info-container">
                                     <h3>Catering</h3>
                                     <p>From galas to work lunches, we can meet your every need. We work closely with you to ensure superb service. Call today to speak with a catering specialist.</p>
-                                    <Link to="#" className="view-button">VIEW CATERING</Link>
+                                    <Link to="/Catering" className="view-button">VIEW CATERING</Link>
                                 </div>
                             </div>
                         </div>

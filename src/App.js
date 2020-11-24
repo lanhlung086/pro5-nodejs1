@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter,Switch,Route,Link} from "react-router-dom";
 import React from 'react';
@@ -15,6 +14,14 @@ import HeaderContact from "./HeaderContact";
 import MainContact from "./MainContact";
 import Footer from "./Footer";
 import Deli from "./Deli";
+import HeaderCakesGallery from "./HeaderCakesGallery";
+import HeaderCateringGallery from "./HeaderCateringGallery";
+import MainCateringGallery from "./MainCateringGallery";
+import MainCakesGallery from "./MainCakesGallery";
+import HeaderWeeklySpecials from "./HeaderWeeklySpecials";
+import MainWeeklySpecials from "./MainWeeklySpecials";
+import HeaderCatering from "./HeaderCatering";
+import MainCatering from "./MainCatering";
 import About from "./About";
 
 function App() {
@@ -28,7 +35,8 @@ function App() {
               <MainHome/>
             </Route>
             <Route exact path="/Catering">
-
+              <HeaderCatering/>
+              <MainCatering/>
             </Route>
             <Route exact path="/Bakery">
               <HeaderBakery/>
@@ -54,6 +62,18 @@ function App() {
             </Route>
             <Route exact path="/OrderOnline">
 
+            </Route>
+            <Route exact path="/CakesGallery">
+              <HeaderCakesGallery/>
+              <MainCakesGallery/>
+            </Route>
+            <Route exact path="/CateringGallery">
+              <HeaderCateringGallery/>
+              <MainCateringGallery/>
+            </Route>
+            <Route exact path="/WeeklySpecials">
+              <HeaderWeeklySpecials/>
+              <MainWeeklySpecials/>
             </Route>
           </Switch>
           <Footer/>

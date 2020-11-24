@@ -71,7 +71,7 @@ export default function MainHome(){
                         <div className="about-specialty col-md-8">
                             <h3>Alessi Specialty Cakes</h3>
                             <p>Cakes are the centerpiece of most any celebration. No matter what the occasion, Alessi Bakeries has the perfect cake for you, carefully baked and exquisitely decorated. Choose from a delightful selection, or let us help you design one that's perfect for what you had in mind. We welcome every challenge!</p>
-                            <p><Link to="#" className="button">LEARN MORE</Link></p>
+                            <p><Link to="/Cakes" className="button">LEARN MORE</Link></p>
                         </div>
                     </div>
                 </div>
