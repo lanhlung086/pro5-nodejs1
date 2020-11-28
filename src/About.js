@@ -2,8 +2,8 @@ export default function Deli() {
     return(
         <>
             <>
-                <header className="section header">
-                    <h1 className="header_title">About Alessi Bakery</h1>
+                <header className="section header1">
+                    <h1 className="header_title1">About Alessi Bakery</h1>
                 </header>
                 <section className="section main">
                     <div className="our-story">

@@ -4,7 +4,7 @@ export default function GalleryPrototype(props) {
     const gallery = props.images;
     return (
         <>
-            <div className="iframe-gallery">
+            <div className="iframe-gallery" id="iframe">
                 <div className="close-button" id="close-button"><i className="fas fa-times fa-2x" /></div>
                 <div className="arrow-left" id="arrow-left"><i className="fas fa-chevron-left fa-4x" /></div>
                 <div className="arrow-right" id="arrow-right"><i className="fas fa-chevron-right fa-4x" /></div>

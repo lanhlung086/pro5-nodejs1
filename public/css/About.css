@@ -8,14 +8,14 @@ body{
     font-family: 'Cabin', sans-serif ;
     line-height: 20px;
 }
-.header {
+.header1 {
     position: relative;
     height: 628px;
     background-image: url("../imgs/Alessi-Old-Pic4-black-cover.jpg");
     background-size: cover;
     background-position: center center;
 }
-.header_title{
+.header_title1sss{
     position:absolute;
     top:50%;
     left:50%;
